@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "runId": "example-run-1",
+  "requestId": "example-chat-1",
+  "scenarioId": "photoshop-contract-example-krita",
+  "target": {
+    "appId": "krita",
+    "adapterVersion": "fixture-1"
+  },
+  "operations": [
+    {
+      "capabilityId": "panels.side",
+      "value": "left"
+    },
+    {
+      "capabilityId": "work-area.size",
+      "value": "large"
+    },
+    {
+      "capabilityId": "tools.density",
+      "value": "full"
+    },
+    {
+      "capabilityId": "binding.pan",
+      "value": "Space"
+    },
+    {
+      "capabilityId": "binding.select",
+      "value": "V"
+    }
+  ],
+  "evidenceRefs": [
+    "fixture:photoshop:1"
+  ],
+  "summary": "Synthetic chat expands the fixture work area.",
+  "limitations": [
+    "Fixture only. Krita adapter supplies verified native capabilities and recipes."
+  ]
+}

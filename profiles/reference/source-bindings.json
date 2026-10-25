@@ -1,0 +1,259 @@
+{
+  "records": [
+    {
+      "id": "official-illustrator-binding-select",
+      "text": "Illustrator’s macOS default selects the Selection tool with V. This differs from Direct Selection, which targets anchors or path segments.",
+      "metadata": {
+        "app": "illustrator",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Default keyboard shortcuts for Illustrator",
+        "url": "https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html",
+        "summary_sha256": "9cf3994c55cce3fe3ceb4c5711ec2c36f6e5b095b0ed6fe848a081bccff4fa64"
+      }
+    },
+    {
+      "id": "official-illustrator-binding-pan",
+      "text": "H activates Illustrator’s Hand tool under the documented macOS defaults.",
+      "metadata": {
+        "app": "illustrator",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Default keyboard shortcuts for Illustrator",
+        "url": "https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html",
+        "summary_sha256": "104afe38575099ca98adfd1992ef4e7831512d169cabc9a63f737049160d45b0"
+      }
+    },
+    {
+      "id": "official-illustrator-binding-zoom",
+      "text": "Z activates Illustrator’s Zoom tool under the documented macOS defaults.",
+      "metadata": {
+        "app": "illustrator",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Default keyboard shortcuts for Illustrator",
+        "url": "https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html",
+        "summary_sha256": "fcc3de7339728272425720fdde31b1f5513d374bbfb7eff7613e89866e6ca1e4"
+      }
+    },
+    {
+      "id": "official-gimp-binding-brush",
+      "text": "GIMP 3.0 assigns P to its Paintbrush tool.",
+      "metadata": {
+        "app": "gimp",
+        "app_version": "3.0",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "GIMP 3.0 Tools key reference",
+        "url": "https://docs.gimp.org/3.0/en/key-reference-tools.html",
+        "summary_sha256": "d279fa4b246310825d5765458e20508539aef1ae55d6507bfcb6c1a54d7c0e91"
+      }
+    },
+    {
+      "id": "official-gimp-binding-select-rectangle",
+      "text": "GIMP 3.0 assigns R to Rectangle Select.",
+      "metadata": {
+        "app": "gimp",
+        "app_version": "3.0",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "GIMP 3.0 Tools key reference",
+        "url": "https://docs.gimp.org/3.0/en/key-reference-tools.html",
+        "summary_sha256": "08c4c4211a3d6672f3e2210593c0920ba175efde013e31ecc46c32bc01cf0f10"
+      }
+    },
+    {
+      "id": "official-gimp-binding-transform",
+      "text": "GIMP 3.0 assigns Shift+T to Unified Transform.",
+      "metadata": {
+        "app": "gimp",
+        "app_version": "3.0",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "GIMP 3.0 Tools key reference",
+        "url": "https://docs.gimp.org/3.0/en/key-reference-tools.html",
+        "summary_sha256": "1c76fa7b442db848e99af87ae6918d5694682b488812dfe271f2af4d1a7e0828"
+      }
+    },
+    {
+      "id": "official-premiere-binding-select",
+      "text": "V activates Premiere’s Selection tool for selecting and repositioning timeline clips.",
+      "metadata": {
+        "app": "premiere",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Edit video in Premiere",
+        "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/intro-to-editing/edit-video-in-premiere.html",
+        "summary_sha256": "8479bc0db230bd6b009146d038ba655559e8d9145cc794a302e4822a27a7797e"
+      }
+    },
+    {
+      "id": "official-premiere-binding-razor-tool",
+      "text": "C activates Premiere’s Razor tool. A click on a timeline clip then makes the cut.",
+      "metadata": {
+        "app": "premiere",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Edit video in Premiere",
+        "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/intro-to-editing/edit-video-in-premiere.html",
+        "summary_sha256": "ad40eb8a42ee571de9de21ff0a10638058eaaeb7b1aba641c255f0647dec77ca"
+      }
+    },
+    {
+      "id": "official-premiere-binding-play-pause",
+      "text": "The Spacebar starts or pauses preview playback of the current Premiere edit.",
+      "metadata": {
+        "app": "premiere",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Edit video in Premiere",
+        "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/intro-to-editing/edit-video-in-premiere.html",
+        "summary_sha256": "0482564d9ac3f9bbcce7cb9bae13ea9fe5a48d3c8921a14468c0323161d8c195"
+      }
+    },
+    {
+      "id": "official-after-effects-binding-select",
+      "text": "V activates the After Effects Selection tool in the documented macOS shortcuts.",
+      "metadata": {
+        "app": "after-effects",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Keyboard shortcuts in After Effects",
+        "url": "https://helpx.adobe.com/after-effects/desktop/get-started/keyboard-shortcuts/keyboard-shortcuts-reference.html",
+        "summary_sha256": "b54ae1af9080aabcce5ef606a7a9967e8888da18e582709bd7251b4408ea6b52"
+      }
+    },
+    {
+      "id": "official-after-effects-binding-pan",
+      "text": "H activates the After Effects Hand tool.",
+      "metadata": {
+        "app": "after-effects",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Keyboard shortcuts in After Effects",
+        "url": "https://helpx.adobe.com/after-effects/desktop/get-started/keyboard-shortcuts/keyboard-shortcuts-reference.html",
+        "summary_sha256": "aef97d6e4bf38a349bfe2243c356bca6afe88972ca9794168726a47343672894"
+      }
+    },
+    {
+      "id": "official-after-effects-binding-preview-toggle",
+      "text": "Tapping Spacebar starts or stops an After Effects preview according to its preview settings.",
+      "metadata": {
+        "app": "after-effects",
+        "app_version": "desktop-unversioned",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Keyboard shortcuts in After Effects",
+        "url": "https://helpx.adobe.com/after-effects/desktop/get-started/keyboard-shortcuts/keyboard-shortcuts-reference.html",
+        "summary_sha256": "0cf0d722bbdba6b7486df47a6805b96685fe52158b9d88a4321d436b1d32da4a"
+      }
+    },
+    {
+      "id": "official-resolve-binding-play-pause",
+      "text": "The Resolve 20 beginner guide documents Spacebar for starting and stopping playback.",
+      "metadata": {
+        "app": "resolve",
+        "app_version": "20",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "The Beginner’s Guide to DaVinci Resolve 20",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-20-Beginners-Guide.pdf",
+        "summary_sha256": "da8468333b7f1256000b72366e9816bbdbd45e2fe23c71cef4a1f7067bbf9614"
+      }
+    },
+    {
+      "id": "official-resolve-binding-blade-tool",
+      "text": "The Resolve 20 editor guide uses B to enable Blade Edit mode, followed by a click on a timeline clip to add an edit.",
+      "metadata": {
+        "app": "resolve",
+        "app_version": "20",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "The Editor’s Guide to DaVinci Resolve 20",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-20-Editors-Guide.pdf?_v=1757574010000",
+        "summary_sha256": "00b52f551607fe3d4c2077cc0f1323c2607139c413051841949b64a17989b528"
+      }
+    },
+    {
+      "id": "official-resolve-binding-mark-in",
+      "text": "The Resolve 20 editor guide uses I to mark a source clip’s In point.",
+      "metadata": {
+        "app": "resolve",
+        "app_version": "20",
+        "kind": "official-source-binding",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "The Editor’s Guide to DaVinci Resolve 20",
+        "url": "https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-20-Editors-Guide.pdf?_v=1757574010000",
+        "summary_sha256": "0fd7c62fdc34d5b468eb5595da858150e94790e0f8fcea659fa83f79316dec99"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "eventId": "example-run-1:4",
+  "runId": "example-run-1",
+  "requestId": "example-request-1",
+  "scenarioId": "photoshop-contract-example-krita",
+  "sequence": 4,
+  "generation": 1,
+  "at": "2026-10-25T08:00:00.000Z",
+  "monotonicMs": 2300,
+  "type": "target-ready",
+  "phase": "ready",
+  "target": {
+    "appId": "krita",
+    "adapterVersion": "fixture-1"
+  },
+  "mode": "prepared",
+  "provider": "local-fixture",
+  "evidenceKind": "fixture",
+  "remainingMs": 60000,
+  "evidenceRefs": [
+    "fixture:readback:1"
+  ]
+}

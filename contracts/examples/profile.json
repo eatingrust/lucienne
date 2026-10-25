@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "profileId": "photoshop-contract-example",
+  "revision": "1",
+  "sourceApp": "photoshop",
+  "personaId": "contract-example",
+  "label": "Synthetic contract example \u2014 not a shipped persona",
+  "provenance": {
+    "mode": "simulated",
+    "provider": "local-fixture",
+    "evidenceRefs": [
+      "fixture:photoshop:1"
+    ]
+  },
+  "evidenceRefs": [
+    "fixture:photoshop:1"
+  ],
+  "bindings": {
+    "pan": "Space",
+    "select": "V"
+  },
+  "preferences": [
+    {
+      "key": "panel-side",
+      "value": "left",
+      "origin": "inferred",
+      "evidenceRefs": [
+        "fixture:photoshop:1"
+      ]
+    }
+  ]
+}

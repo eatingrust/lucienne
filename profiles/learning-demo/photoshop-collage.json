@@ -1,0 +1,68 @@
+{
+  "id": "learning-demo:photoshop-collage:preset-v1",
+  "label": "Preset learning demonstration — simulated history and predetermined result",
+  "sourceProfileId": "photoshop-collage",
+  "takeaways": [
+    "The scripted persona repeatedly selects and transforms layered artwork.",
+    "The predetermined demonstration preserves the left-side Layers instruction.",
+    "Its preset output gives the canvas more room and simplifies visible controls."
+  ],
+  "result": {
+    "version": 1,
+    "profileId": "photoshop-collage",
+    "revision": "learning-demo-v1",
+    "sourceApp": "photoshop",
+    "personaId": "collage",
+    "label": "Layer-heavy collage (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "preset-learning-demo",
+      "evidenceRefs": [
+        "learning-demo:photoshop-collage:preset-v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:photoshop-collage:v1",
+      "official-photoshop-brush-b",
+      "official-photoshop-marquee-m",
+      "official-photoshop-transform-cmd-t",
+      "persona:photoshop-collage:instructions:v1",
+      "learning-demo:photoshop-collage:preset-v1"
+    ],
+    "bindings": {
+      "brush": "B",
+      "select-rectangle": "M",
+      "transform": "Meta+T"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "left",
+        "origin": "explicit",
+        "evidenceRefs": [
+          "persona:photoshop-collage:instructions:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "learning-demo:photoshop-collage:preset-v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "simple",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "learning-demo:photoshop-collage:preset-v1"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Not a live quiz result, behavioral learning result or native application.",
+    "Never use as an automatic fallback for the LLM quiz or Translate."
+  ]
+}

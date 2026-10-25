@@ -1,0 +1,16 @@
+/* Companion layout and accessibility defaults. */
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.5; }
+body { margin: 0; }
+main { max-width: 64rem; padding: clamp(1rem, 4vw, 3rem); margin-inline: auto; }
+.companion-header { display: flex; align-items: center; flex-wrap: wrap; }
+.lucienne-mark { width: 7rem; height: 7rem; flex: none; background: white; }
+section, aside, form { padding-block: 1rem; }
+label { display: block; }
+input, button { font: inherit; padding: .65rem; max-width: 100%; box-sizing: border-box; }
+input { width: min(100%, 32rem); }
+button { cursor: pointer; }
+button:disabled { cursor: default; }
+nav, .fixture-controls { display: flex; flex-wrap: wrap; gap: .75rem; margin-block: 1rem; }
+footer { margin-top: 2rem; }
+*:focus-visible { outline: 3px solid Highlight; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }

@@ -1,0 +1,16 @@
+[
+  { "id": "blender.binding.brush", "kind": "binding", "bindingAction": "brush", "values": ["disabled", "B", "P"] },
+  { "id": "blender.binding.select-rectangle", "kind": "binding", "bindingAction": "select-rectangle", "values": ["disabled", "M", "R"] },
+  { "id": "blender.binding.transform", "kind": "binding", "bindingAction": "transform", "values": ["disabled", "Meta+T", "Shift+T"] },
+  { "id": "blender.binding.select", "kind": "binding", "bindingAction": "select", "values": ["disabled", "V"] },
+  { "id": "blender.binding.pan", "kind": "binding", "bindingAction": "pan", "values": ["disabled", "H"] },
+  { "id": "blender.binding.zoom", "kind": "binding", "bindingAction": "zoom", "values": ["disabled", "Z"] },
+  { "id": "blender.binding.razor-tool", "kind": "binding", "bindingAction": "razor-tool", "values": ["disabled", "C"] },
+  { "id": "blender.binding.play-pause", "kind": "binding", "bindingAction": "play-pause", "values": ["disabled", "Space"] },
+  { "id": "blender.binding.preview-toggle", "kind": "binding", "bindingAction": "preview-toggle", "values": ["disabled", "Space"] },
+  { "id": "blender.binding.blade-tool", "kind": "binding", "bindingAction": "blade-tool", "values": ["disabled", "B"] },
+  { "id": "blender.binding.mark-in", "kind": "binding", "bindingAction": "mark-in", "values": ["disabled", "I"] },
+  { "id": "blender.layout.panel-side", "kind": "layout", "preferenceKey": "panel-side", "values": ["left", "right"] },
+  { "id": "blender.canvas.work-area", "kind": "canvas", "preferenceKey": "work-area", "values": ["normal", "large"] },
+  { "id": "blender.tool-layout.density", "kind": "tool-layout", "preferenceKey": "tool-density", "values": ["full", "simple"] }
+]

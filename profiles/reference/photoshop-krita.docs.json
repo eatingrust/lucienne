@@ -1,0 +1,191 @@
+{
+  "records": [
+    {
+      "id": "official-photoshop-workspace",
+      "text": "Photoshop has a document area, grouped panels, a tools panel, and an options bar that follows the selected tool. These are source concepts for layout translation.",
+      "metadata": {
+        "app": "photoshop",
+        "app_version": "desktop-unversioned",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Photoshop workspace overview",
+        "url": "https://helpx.adobe.com/photoshop/desktop/get-started/learn-the-basics/workspace-overview.html",
+        "summary_sha256": "11a0ff1a1bb87aac1c5974fc6d65ba8e6034026d49e80daf529f15769f4bc835"
+      }
+    },
+    {
+      "id": "official-photoshop-save-workspace",
+      "text": "Photoshop supports rearranging, docking and grouping panels. A named workspace can capture panel placement, keyboard shortcuts and menus.",
+      "metadata": {
+        "app": "photoshop",
+        "app_version": "desktop-unversioned",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Save custom workspaces",
+        "url": "https://helpx.adobe.com/photoshop/desktop/get-started/learn-the-basics/save-custom-workspaces.html",
+        "summary_sha256": "cc1b1bbbaca3ba16ed16d32b18ab6d9941707f767d32fe99b89399769b978187"
+      }
+    },
+    {
+      "id": "official-photoshop-brush-b",
+      "text": "The Photoshop Brush tool uses B. Brush tip size and hardness are adjusted in its picker; dragging paints a stroke.",
+      "metadata": {
+        "app": "photoshop",
+        "app_version": "desktop-unversioned",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Paint images using the Brush tool",
+        "url": "https://helpx.adobe.com/photoshop/using/tool-techniques/brush-tool.html",
+        "summary_sha256": "266088c87ca3ad6583bc3fe36098c0f44b567bad5065b3e4ff9aacfc792f9909"
+      }
+    },
+    {
+      "id": "official-photoshop-marquee-m",
+      "text": "M addresses Photoshop marquee tools. Rectangular and elliptical marquees isolate an image region; selection options include add, subtract and intersect.",
+      "metadata": {
+        "app": "photoshop",
+        "app_version": "desktop-unversioned",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Make selections with the Marquee tools",
+        "url": "https://helpx.adobe.com/photoshop/desktop/make-selections/get-started-selections/make-selections-with-marquee-tools.html",
+        "summary_sha256": "10f91f7be0e65d642ebdb9f7d0e784728dec89dd1fb8f5f83cce1e6373e1ddce"
+      }
+    },
+    {
+      "id": "official-photoshop-transform-cmd-t",
+      "text": "On macOS, Command+T opens Photoshop Free Transform for a selected layer, shape, path or selection. Handles permit scaling and rotation; dragging inside moves the content.",
+      "metadata": {
+        "app": "photoshop",
+        "app_version": "desktop-unversioned",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Transform images, shapes, and paths",
+        "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/transform-images-shapes-and-paths.html",
+        "summary_sha256": "0868f4d8d0f699788a65af9f4617fc549c7949434bd30e0fa49dcc1e2b0103b3"
+      }
+    },
+    {
+      "id": "official-krita-workspaces",
+      "text": "Krita workspaces preserve docker placement and grouping. A workspace can be saved or imported from a .kws file, and selected through the toolbar or Window menu.",
+      "metadata": {
+        "app": "krita",
+        "app_version": "5.3.0",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Workspaces",
+        "url": "https://docs.krita.org/en/reference_manual/resource_management/resource_workspace.html",
+        "summary_sha256": "6740a600b68176af30f7a0bb28efb30bf14f92768f6f42f38b97a5e62aac14b8"
+      }
+    },
+    {
+      "id": "official-krita-shortcuts",
+      "text": "Krita lets users reassign action shortcuts and import or export shortcut profiles. Its documented schemes include Photoshop. Canvas mouse and stylus input uses separate settings.",
+      "metadata": {
+        "app": "krita",
+        "app_version": "5.3.0",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Shortcut Settings",
+        "url": "https://docs.krita.org/en/reference_manual/preferences/shortcut_settings.html",
+        "summary_sha256": "047c911ae3571d6cdf15f95edfb28ccd927eb39d36463395f3f4c83deca316ee"
+      }
+    },
+    {
+      "id": "official-krita-paint",
+      "text": "Krita Freehand Brush paints on paint layers and uses B by default. Brush presets choose the brush. Keyboard shortcuts and canvas sticky keys have separate configuration surfaces.",
+      "metadata": {
+        "app": "krita",
+        "app_version": "5.3.0",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Freehand Brush Tool",
+        "url": "https://docs.krita.org/en/reference_manual/tools/freehand_brush.html",
+        "summary_sha256": "62616d95951b1d7c6ec163786072be6cd86ffbe1da2a18335cdee26e177267b3"
+      }
+    },
+    {
+      "id": "official-krita-select",
+      "text": "Krita rectangular selection is made by dragging across the canvas. Selection modes include replacement, addition, subtraction and intersection.",
+      "metadata": {
+        "app": "krita",
+        "app_version": "5.3.0",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Rectangular Selection Tool",
+        "url": "https://docs.krita.org/en/reference_manual/tools/rectangular_select.html",
+        "summary_sha256": "a9be02567592b747c817a1919b909bf11a1d3dbbe02e2c9c17b317cbd60a6c3c"
+      }
+    },
+    {
+      "id": "official-krita-transform",
+      "text": "Krita Transform can resize, rotate, skew or move a selected region or layer. Handles and the Tool Options docker expose transform controls.",
+      "metadata": {
+        "app": "krita",
+        "app_version": "5.3.0",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Transform Tool",
+        "url": "https://docs.krita.org/en/reference_manual/tools/transform.html",
+        "summary_sha256": "4f3506468c802d8a518a00daf17a4da2e531355b112e02b6b0a06da18c21cadf"
+      }
+    },
+    {
+      "id": "official-krita-toolbars",
+      "text": "Krita allows adding, removing and reordering actions in existing Main and Brushes and Stuff toolbars. This is a bounded surface for simplifying visible controls. Existing toolbars can be moved; the Show Dockers setting toggles docker visibility. Additional toolbars cannot be created through this configuration surface.",
+      "metadata": {
+        "app": "krita",
+        "app_version": "5.3.0",
+        "kind": "official-document",
+        "synthetic": "false",
+        "provenance": "official-document",
+        "native_verified": "false"
+      },
+      "source": {
+        "title": "Settings Menu",
+        "url": "https://docs.krita.org/en/reference_manual/main_menu/settings_menu.html",
+        "summary_sha256": "2b6bbc65254df218d33ce351474b5fd7f0b1cfab6cbb44a800a881c9d9e79ae2"
+      }
+    }
+  ]
+}

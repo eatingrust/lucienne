@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "runId": "example-run-1",
+  "requestId": "example-request-1",
+  "scenarioId": "photoshop-contract-example-krita",
+  "kind": "translate",
+  "target": {
+    "appId": "krita",
+    "adapterVersion": "fixture-1"
+  },
+  "source": {
+    "version": 1,
+    "profileId": "photoshop-contract-example",
+    "revision": "1",
+    "sourceApp": "photoshop",
+    "personaId": "contract-example",
+    "label": "Synthetic contract example \u2014 not a shipped persona",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-fixture",
+      "evidenceRefs": [
+        "fixture:photoshop:1"
+      ]
+    },
+    "evidenceRefs": [
+      "fixture:photoshop:1"
+    ],
+    "bindings": {
+      "pan": "Space",
+      "select": "V"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "left",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "fixture:photoshop:1"
+        ]
+      }
+    ]
+  },
+  "explicit": [],
+  "instruction": "",
+  "catalog": [
+    {
+      "id": "panels.side",
+      "kind": "layout",
+      "values": [
+        "left",
+        "right"
+      ],
+      "preferenceKey": "panel-side"
+    },
+    {
+      "id": "work-area.size",
+      "kind": "canvas",
+      "values": [
+        "normal",
+        "large"
+      ],
+      "preferenceKey": "work-area"
+    },
+    {
+      "id": "tools.density",
+      "kind": "tool-layout",
+      "values": [
+        "full",
+        "simple"
+      ],
+      "preferenceKey": "tool-density"
+    },
+    {
+      "id": "binding.pan",
+      "kind": "binding",
+      "values": [
+        "Space"
+      ],
+      "bindingAction": "pan"
+    },
+    {
+      "id": "binding.select",
+      "kind": "binding",
+      "values": [
+        "V"
+      ],
+      "bindingAction": "select"
+    }
+  ],
+  "currentOperations": [],
+  "evidenceRefs": [
+    "fixture:photoshop:1"
+  ]
+}

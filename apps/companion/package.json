@@ -1,0 +1,16 @@
+{
+  "name": "@lucienne/companion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts test/*.test.tsx test/*.test.mjs",
+    "typecheck": "tsc -p tsconfig.json",
+    "check:boundary": "node scripts/check-boundary.mjs",
+    "build": "npm run typecheck && vite build --config vite.config.ts && node scripts/prepare-private.mjs",
+    "dev": "vite --config vite.config.ts --host 127.0.0.1",
+    "serve:private": "node scripts/private-server.mjs"
+  },
+  "peerDependencies": { "@lucienne/session": "0.1.0", "react": "19.3.1", "react-dom": "19.3.1" },
+  "exports": { ".": "./src/index.tsx" }
+}

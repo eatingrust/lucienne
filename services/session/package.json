@@ -1,0 +1,21 @@
+{
+  "name": "@lucienne/session",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "convex": "1.48.0",
+    "spacetimedb": "2.13.0"
+  },
+  "devDependencies": {
+    "convex-test": "0.0.65"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./main": "./src/main.ts",
+    "./companion": "./src/companion.ts",
+    "./convex-companion": "./src/convex-companion.ts",
+    "./spacetime-main": "./src/spacetime-main.ts",
+    "./spacetime-companion": "./src/spacetime-companion.ts"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "resultId": "example-qa-1",
+  "runId": "example-run-1",
+  "scenarioId": "photoshop-contract-example-krita",
+  "target": {
+    "appId": "krita",
+    "adapterVersion": "fixture-1"
+  },
+  "profileId": "photoshop-contract-example",
+  "check": "native-task",
+  "status": "blocked",
+  "evidenceKind": "none",
+  "measuredAt": "2026-10-25T08:00:00.000Z",
+  "evidenceRefs": [],
+  "metrics": [],
+  "limitations": [
+    "Synthetic fixture result. Fixture readiness is not native proof."
+  ]
+}

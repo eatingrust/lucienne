@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=lucienne_bridge
+X-Python-2-Compatible=false
+Name=Lucienne bounded native bridge
+Comment=Dedicated-account bridge for finite Krita recipes and independent readback

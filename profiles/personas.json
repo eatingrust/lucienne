@@ -1,0 +1,939 @@
+[
+  {
+    "version": 1,
+    "profileId": "photoshop-essentials",
+    "revision": "demo-v1",
+    "sourceApp": "photoshop",
+    "personaId": "essentials",
+    "label": "Essentials (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:photoshop-essentials:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:photoshop-essentials:v1",
+      "official-photoshop-brush-b",
+      "official-photoshop-marquee-m",
+      "official-photoshop-transform-cmd-t"
+    ],
+    "bindings": {
+      "brush": "B",
+      "select-rectangle": "M",
+      "transform": "Meta+T"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:photoshop-essentials:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:photoshop-essentials:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:photoshop-essentials:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "photoshop-retoucher",
+    "revision": "demo-v1",
+    "sourceApp": "photoshop",
+    "personaId": "retoucher",
+    "label": "Product-photo retoucher (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:photoshop-retoucher:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:photoshop-retoucher:v1",
+      "official-photoshop-brush-b",
+      "official-photoshop-marquee-m",
+      "official-photoshop-transform-cmd-t"
+    ],
+    "bindings": {
+      "brush": "B",
+      "select-rectangle": "M",
+      "transform": "Meta+T"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:photoshop-retoucher:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:photoshop-retoucher:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "simple",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:photoshop-retoucher:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "photoshop-collage",
+    "revision": "demo-v1",
+    "sourceApp": "photoshop",
+    "personaId": "collage",
+    "label": "Layer-heavy collage (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:photoshop-collage:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:photoshop-collage:v1",
+      "official-photoshop-brush-b",
+      "official-photoshop-marquee-m",
+      "official-photoshop-transform-cmd-t",
+      "persona:photoshop-collage:instructions:v1"
+    ],
+    "bindings": {
+      "brush": "B",
+      "select-rectangle": "M",
+      "transform": "Meta+T"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "left",
+        "origin": "explicit",
+        "evidenceRefs": [
+          "persona:photoshop-collage:instructions:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:photoshop-collage:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:photoshop-collage:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "illustrator-essentials",
+    "revision": "demo-v1",
+    "sourceApp": "illustrator",
+    "personaId": "essentials",
+    "label": "Essentials (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:illustrator-essentials:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:illustrator-essentials:v1",
+      "official-illustrator-binding-select",
+      "official-illustrator-binding-pan",
+      "official-illustrator-binding-zoom"
+    ],
+    "bindings": {
+      "select": "V",
+      "pan": "H",
+      "zoom": "Z"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-essentials:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-essentials:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-essentials:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "illustrator-type-poster",
+    "revision": "demo-v1",
+    "sourceApp": "illustrator",
+    "personaId": "type-poster",
+    "label": "Type and poster (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:illustrator-type-poster:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:illustrator-type-poster:v1",
+      "official-illustrator-binding-select",
+      "official-illustrator-binding-pan",
+      "official-illustrator-binding-zoom"
+    ],
+    "bindings": {
+      "select": "V",
+      "pan": "H",
+      "zoom": "Z"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-type-poster:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-type-poster:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "simple",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-type-poster:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "illustrator-vector-collage",
+    "revision": "demo-v1",
+    "sourceApp": "illustrator",
+    "personaId": "vector-collage",
+    "label": "Vector collage (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:illustrator-vector-collage:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:illustrator-vector-collage:v1",
+      "official-illustrator-binding-select",
+      "official-illustrator-binding-pan",
+      "official-illustrator-binding-zoom"
+    ],
+    "bindings": {
+      "select": "V",
+      "pan": "H",
+      "zoom": "Z"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "left",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-vector-collage:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-vector-collage:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:illustrator-vector-collage:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "gimp-default",
+    "revision": "demo-v1",
+    "sourceApp": "gimp",
+    "personaId": "default",
+    "label": "Default-like (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:gimp-default:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:gimp-default:v1",
+      "official-gimp-binding-brush",
+      "official-gimp-binding-select-rectangle",
+      "official-gimp-binding-transform"
+    ],
+    "bindings": {
+      "brush": "P",
+      "select-rectangle": "R",
+      "transform": "Shift+T"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-default:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-default:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-default:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "gimp-retoucher",
+    "revision": "demo-v1",
+    "sourceApp": "gimp",
+    "personaId": "retoucher",
+    "label": "Photo retoucher (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:gimp-retoucher:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:gimp-retoucher:v1",
+      "official-gimp-binding-brush",
+      "official-gimp-binding-select-rectangle",
+      "official-gimp-binding-transform"
+    ],
+    "bindings": {
+      "brush": "P",
+      "select-rectangle": "R",
+      "transform": "Shift+T"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-retoucher:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-retoucher:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "simple",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-retoucher:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "gimp-collage",
+    "revision": "demo-v1",
+    "sourceApp": "gimp",
+    "personaId": "collage",
+    "label": "Layer-heavy collage (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:gimp-collage:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:gimp-collage:v1",
+      "official-gimp-binding-brush",
+      "official-gimp-binding-select-rectangle",
+      "official-gimp-binding-transform"
+    ],
+    "bindings": {
+      "brush": "P",
+      "select-rectangle": "R",
+      "transform": "Shift+T"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "left",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-collage:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-collage:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:gimp-collage:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "premiere-editing",
+    "revision": "demo-v1",
+    "sourceApp": "premiere",
+    "personaId": "editing",
+    "label": "Editing (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:premiere-editing:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:premiere-editing:v1",
+      "official-premiere-binding-select",
+      "official-premiere-binding-razor-tool",
+      "official-premiere-binding-play-pause"
+    ],
+    "bindings": {
+      "select": "V",
+      "razor-tool": "C",
+      "play-pause": "Space"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-editing:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-editing:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-editing:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "premiere-dialogue",
+    "revision": "demo-v1",
+    "sourceApp": "premiere",
+    "personaId": "dialogue",
+    "label": "Dialogue and documentary (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:premiere-dialogue:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:premiere-dialogue:v1",
+      "official-premiere-binding-select",
+      "official-premiere-binding-razor-tool",
+      "official-premiere-binding-play-pause"
+    ],
+    "bindings": {
+      "select": "V",
+      "razor-tool": "C",
+      "play-pause": "Space"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "left",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-dialogue:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-dialogue:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "simple",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-dialogue:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "premiere-color",
+    "revision": "demo-v1",
+    "sourceApp": "premiere",
+    "personaId": "color",
+    "label": "Color finishing (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:premiere-color:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:premiere-color:v1",
+      "official-premiere-binding-select",
+      "official-premiere-binding-razor-tool",
+      "official-premiere-binding-play-pause"
+    ],
+    "bindings": {
+      "select": "V",
+      "razor-tool": "C",
+      "play-pause": "Space"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-color:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-color:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:premiere-color:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "after-effects-standard",
+    "revision": "demo-v1",
+    "sourceApp": "after-effects",
+    "personaId": "standard",
+    "label": "Standard (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:after-effects-standard:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:after-effects-standard:v1",
+      "official-after-effects-binding-select",
+      "official-after-effects-binding-pan",
+      "official-after-effects-binding-preview-toggle"
+    ],
+    "bindings": {
+      "select": "V",
+      "pan": "H",
+      "preview-toggle": "Space"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-standard:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-standard:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-standard:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "after-effects-motion",
+    "revision": "demo-v1",
+    "sourceApp": "after-effects",
+    "personaId": "motion",
+    "label": "Motion designer (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:after-effects-motion:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:after-effects-motion:v1",
+      "official-after-effects-binding-select",
+      "official-after-effects-binding-pan",
+      "official-after-effects-binding-preview-toggle"
+    ],
+    "bindings": {
+      "select": "V",
+      "pan": "H",
+      "preview-toggle": "Space"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "left",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-motion:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-motion:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-motion:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "after-effects-compositor",
+    "revision": "demo-v1",
+    "sourceApp": "after-effects",
+    "personaId": "compositor",
+    "label": "Compositor (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:after-effects-compositor:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:after-effects-compositor:v1",
+      "official-after-effects-binding-select",
+      "official-after-effects-binding-pan",
+      "official-after-effects-binding-preview-toggle"
+    ],
+    "bindings": {
+      "select": "V",
+      "pan": "H",
+      "preview-toggle": "Space"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-compositor:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-compositor:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "simple",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:after-effects-compositor:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "resolve-edit",
+    "revision": "demo-v1",
+    "sourceApp": "resolve",
+    "personaId": "edit",
+    "label": "Edit page (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:resolve-edit:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:resolve-edit:v1",
+      "official-resolve-binding-play-pause",
+      "official-resolve-binding-blade-tool",
+      "official-resolve-binding-mark-in"
+    ],
+    "bindings": {
+      "play-pause": "Space",
+      "blade-tool": "B",
+      "mark-in": "I"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-edit:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "normal",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-edit:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-edit:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "resolve-dialogue",
+    "revision": "demo-v1",
+    "sourceApp": "resolve",
+    "personaId": "dialogue",
+    "label": "Dialogue and cut (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:resolve-dialogue:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:resolve-dialogue:v1",
+      "official-resolve-binding-play-pause",
+      "official-resolve-binding-blade-tool",
+      "official-resolve-binding-mark-in"
+    ],
+    "bindings": {
+      "play-pause": "Space",
+      "blade-tool": "B",
+      "mark-in": "I"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "left",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-dialogue:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-dialogue:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "simple",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-dialogue:v1"
+        ]
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "profileId": "resolve-color",
+    "revision": "demo-v1",
+    "sourceApp": "resolve",
+    "personaId": "color",
+    "label": "Color-oriented (demonstration persona)",
+    "provenance": {
+      "mode": "simulated",
+      "provider": "local-persona-fixture",
+      "evidenceRefs": [
+        "persona:resolve-color:v1"
+      ]
+    },
+    "evidenceRefs": [
+      "persona:resolve-color:v1",
+      "official-resolve-binding-play-pause",
+      "official-resolve-binding-blade-tool",
+      "official-resolve-binding-mark-in"
+    ],
+    "bindings": {
+      "play-pause": "Space",
+      "blade-tool": "B",
+      "mark-in": "I"
+    },
+    "preferences": [
+      {
+        "key": "panel-side",
+        "value": "right",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-color:v1"
+        ]
+      },
+      {
+        "key": "work-area",
+        "value": "large",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-color:v1"
+        ]
+      },
+      {
+        "key": "tool-density",
+        "value": "full",
+        "origin": "inferred",
+        "evidenceRefs": [
+          "persona:resolve-color:v1"
+        ]
+      }
+    ]
+  }
+]

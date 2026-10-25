@@ -1,0 +1,43 @@
+{
+  "name": "lucienne",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.22.3"
+  },
+  "workspaces": [
+    "services/*",
+    "services/session/spacetime/spacetimedb",
+    "apps/companion"
+  ],
+  "main": "dist/electron/main.cjs",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && node scripts/build.mjs --fixture-only",
+    "build:native-source": "npm run typecheck && node scripts/build.mjs",
+    "start": "npm run start:fixture",
+    "start:fixture": "npm run build && electron . --fixture",
+    "smoke:fixture": "electron . --smoke-test",
+    "dev:web": "vite --config vite.config.ts --host 127.0.0.1",
+    "test": "node --import tsx --test --test-concurrency=1 contracts/tests/*.test.ts core/tests/*.test.ts",
+    "companion:dev": "npm --workspace @lucienne/companion run dev",
+    "companion:build": "npm --workspace @lucienne/companion run build",
+    "companion:test": "npm --workspace @lucienne/companion test"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "electron": "45.0.0",
+    "esbuild": "0.28.2",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vite": "8.3.5"
+  }
+}

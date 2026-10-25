@@ -1,0 +1,15 @@
+import { mountCompanion } from './index.js';
+import { createFixturePorts, fixtureCode } from './fixture.js';
+import type { RunEvent } from '../../../contracts/index.js';
+const fixture = createFixturePorts();
+const app = mountCompanion(document.getElementById('root')!, fixture.ports, { fixture: true });
+const panel = document.createElement('section');
+panel.className = 'fixture-controls'; panel.setAttribute('aria-label', 'Synthetic verification controls');
+const add = (text: string, action: () => void) => { const button = document.createElement('button'); button.textContent = text; button.onclick = action; panel.append(button); };
+add('Pair fixture display', () => { void app.controller.pair(fixtureCode); });
+for (const type of ['selected', 'planning', 'progress', 'applying', 'target-ready', 'chat-opened', 'chat-applied', 'chat-closed', 'closing', 'reset-started', 'reset-completed', 'failed'] as RunEvent['type'][]) add(`Fixture: ${type}`, () => fixture.publish(type));
+add('Fixture: replay', () => fixture.publish('target-ready', 'replay'));
+add('Fixture: gap', () => fixture.publish('chat-closed', 'prepared', true));
+add('Fixture: stale', fixture.stale); add('Fixture: expired', fixture.expire); add('Fixture: error', fixture.fail);
+document.body.append(panel);
+window.addEventListener('pagehide', () => app.dispose(), { once: true });
